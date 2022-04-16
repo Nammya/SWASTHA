@@ -1,0 +1,248 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width:40%;
+    
+
+}
+.navbar{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+
+
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 28px 30px;
+    
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav-list li a:hover{
+   color:grey;
+    
+}
+
+.rightnav{
+    width:50%;
+    text-align: right;
+    padding: 0,23px;
+}
+
+#search{
+    padding:5px;
+    font-size: 11px;
+    border:2px solid grey;
+    border-radius: 9px;
+    
+}
+.background{
+    background: white url('healthcare.jpeg');
+    background-size: cover;
+    background-blend-mode:darken ;
+}
+
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+
+}
+.firstHalf{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-big{
+    font-size: 70px;
+    font-family: sans-serif;
+    text-align: right;
+    
+
+}
+.text-small{
+    font-size: 25px;
+    color: yellowgreen;
+    text-align: center;
+
+}
+.btn{
+    padding: 5px 10px;
+    margin: 7px 3px;
+    border:2px black;
+    border-radius: 6px;
+    font-family: sans-serif;
+    color: black;
+}
+.btn-sm{
+    cursor: pointer;
+    font-family: sans-serif;
+    padding: 6px 10px;
+    vertical-align: middle;
+    border:2px black;
+    border-radius: 6px;
+}
+.secRigth{
+    height: 250%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+    cursor: pointer;
+    background-color: rgb(215, 215, 167);
+}
+.sectionsubtag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+    font-family: sans-serif;
+    height: 450%;
+    cursor: pointer;
+    background-color: rgb(215, 215, 167);
+}
+
+.sectionsubtag1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: rgb(215, 215, 167);
+}
+
+
+.sectionsubtag2{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: rgb(215, 215, 167);
+}
+
+.sectionsubtag3{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    max-width: 50%;
+    margin: auto;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: rgb(215, 215, 167);
+}
+
+.secleft{
+    height: 250%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+    cursor: pointer;
+    background-color: rgb(215, 215, 167);
+}
+.secsubleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+    cursor: pointer;
+    background-color: rgb(215, 215, 167);
+
+}
+.secsubleft1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+    cursor: pointer;
+    background-color: rgb(215, 215, 167);
+}
+.thumbnail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.thumbnail1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.thumbnail2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.thumbnail3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact{
+    color:white;
+    cursor: pointer;
+    font-size: medium;
+    font-family: sans-serif;
+    background-color: rgb(158, 215, 163);
+
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

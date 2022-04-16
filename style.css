@@ -1,0 +1,44 @@
+body{
+    background:url("bac2.jpg");
+    background-size: 150%;
+    background-position: -400px 0px;
+}
+h1 {
+    font-family:'Lucida Sans',
+    'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:300%;
+    line-height: 1.15;
+    color: rgb(51, 31, 77);
+    text-decoration: overline ;
+    
+}
+p{
+    font-family: sans-serif;
+    text-align: center;
+}
+div.reg1{
+    text-align: center;
+    background-color: rgba(57, 99, 237, 0.5);
+    border-radius: 10px;
+    width: 100%;
+    color: rgb(67, 28, 28);
+
+}
+div.reg2{
+    text-align: center;
+    background-color: rgba(57, 99, 237, 0.5);
+    border-radius: 10px;
+    width: 100%;
+    color: rgb(67, 28, 28);
+}
+div.inline{
+    text-align: center;
+    background-color: rgba(57, 99, 237, 0.5);
+    border-radius: 10px;
+    width: 100%;
+    color: rgb(67, 28, 28);
+}
+input#submit{
+    width: 200px;
+    padding: 10px;
+}
